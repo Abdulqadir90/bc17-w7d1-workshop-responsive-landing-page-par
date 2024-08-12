@@ -38,31 +38,35 @@ header {
 }
 
 .logo h1 {
-    display: inline;
-    font-size: 1.4em;
-    margin-left: 10px;
-    vertical-align: middle;
+    display: flex;
+    font-size: 20px;
 }
 
 /* Hero Section */
 .hero {
     background-color: #cd8125;
-    color: white;
     text-align: center;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    padding: 40px;
+    margin: 0px;
 }
 
-.hero h2 {
+.title {
     font-size: 1.2em;
-    margin-bottom: 10px;
+    color: black;
+    /* margin-bottom: 10px; */
 }
 
 .hero p {
     font-size: 1em;
 }
 
+.consultation{
+    color: black;
+}
+
+.number{
+    color: white;
+}
 /* How it Works Section */
 .how-it-works {
     text-align: center;
@@ -107,35 +111,37 @@ header {
 }
 
 /* Footer */
-footer {
-    background-color: #e0e0e0; /* Light grey background */
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    margin-top: 20px;
-}
+/* .footer{
+width: 100%;
+} */
 
-footer .contact-info {
+.contact-info {
+    background-color: #e0e0e0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 3px; /* Adds space between the text elements */
+    padding: 10px;
 }
 
-footer .contact-info p {
-    margin: 5px 0;
-    font-size: 0.9em;
-    color: #333;
+.left-side {
+    display:flex;
+    flex-direction: column;
 }
 
-footer .contact-info p:first-child {
-    font-weight: bold;
+.right-side {
+    display:flex;
+    flex-direction: column;
 }
 
-footer .contact-info p:last-child {
-    font-size: 0.8em;
-    color: #666;
+.left-side p{
+   margin: 15px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap');
+.right-side p {
+   margin: 15px;
+   
+}
+
+#email{
+    text-decoration: underline;
+}
