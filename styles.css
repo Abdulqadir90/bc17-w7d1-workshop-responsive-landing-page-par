@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 body {
-    font-family: @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap');
     background-color: #f5f5f5;
    
 }
